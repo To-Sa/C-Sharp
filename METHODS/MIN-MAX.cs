@@ -32,13 +32,13 @@ namespace PCC
             int min = 0;
             int max = 0;
 
-            algorithms.MinMax(tmb, out min, out max);
+            algorithms.minMax(tmb, out min, out max);
             listBox1.Items.Add(min + "; " + max);
         }
 
         class algorithms
         {
-            public static void MinMax(int[] tmb, out int min, out int max)
+            public static void minMax(int[] tmb, out int min, out int max)
             {
                 int _min = tmb[0];
                 int _max = tmb[0];
