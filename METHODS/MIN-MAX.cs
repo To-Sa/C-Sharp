@@ -17,9 +17,9 @@ namespace PCC
             InitializeComponent();
         }
 
-        void print(int[] tomb)
+        void print(int[] blocks)
         {
-            foreach (var elem in tomb)
+            foreach (var elem in blocks)
             {
                 listBox1.Items.Add(elem); 
             }
