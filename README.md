@@ -1,6 +1,4 @@
-# PCC
-
-
+# PCC - Program Code Collection
 
 Copyright (c) 2018 Sandor Toth (ToSa)
 
