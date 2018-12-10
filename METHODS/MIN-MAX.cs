@@ -17,14 +17,6 @@ namespace PCC
             InitializeComponent();
         }
 
-        void print(int[] blocks)
-        {
-            foreach (var elem in blocks)
-            {
-                listBox1.Items.Add(elem); 
-            }
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             var tmb = new int[] { 2, 6, 0, 0, 2, 2, 9, 2, 3, 1, 4, 4, 8, 8, 8, 0 };
