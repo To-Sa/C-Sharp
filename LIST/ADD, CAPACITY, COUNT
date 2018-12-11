@@ -43,3 +43,14 @@ namespace PCC
         }
     }
 }
+                                //lista.Insert(location index, elem)
+                                //lista.Remove(del)
+                                //lista.RemoveAt(index)
+                                //lista.Clear
+                                //lista.AddRange(tmb) ---Copy the array content to the end of list.
+                                //lista.InsertRange(location index, elem)
+                                //lista.Sort()
+                                //lista.Contains(cont.) ---TRUE or FALSE
+                                //listaIndexOf(elem) --- return with index, false: -1
+                                //lista.LastIndexof(elem) ---search from the end
+                                //lista.ToArray() ---int[] tmb = lista.ToArray();
