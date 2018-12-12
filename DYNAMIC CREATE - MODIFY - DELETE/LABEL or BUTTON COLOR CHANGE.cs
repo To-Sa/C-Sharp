@@ -21,7 +21,7 @@ namespace PCC
         private void button1_Click(object sender, EventArgs e)
         {
             // 1st create some label in form or button
-
+            // OR use this > this.Controls.Find("label1", true)[0].BackColor = Color.Red;
             foreach (Label lab in this.Controls.OfType<Label>().Where(lab => lab.Name.StartsWith("label")))
             {
                 if (lab.Name.StartsWith("label4"))
