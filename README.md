@@ -1,6 +1,6 @@
 # PCC - Program Code Collection
 
-Copyright (c) 2018 Sandor Toth (ToSa)
+Copyright (c) 2018 ToSa
 
 Permission is hereby granted, free of charge, to any person obtaining 
 a copy of this software and associated documentation files (the "Software"), 
