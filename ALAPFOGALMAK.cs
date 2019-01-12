@@ -25,6 +25,7 @@ namespace PCC
             //  PRECEDENCIA:        Egy olyan rangsor, amelyet a nyelv követ és olyan sorrendben értelmezi a műveleteket.
             //  RÖVIDÍTETT VERZIÓ:  int szam1 = 7;
             //                      szam1 *= -5; MessageBox.Show(Convert.ToString(szam1));
+            //  VÉGTELEN CIKLUS:    Pl.: WHILE(true) > Az adott ciklusból a program nem tud kilépni, így folyton ismételgeti önmagát.
         }
     }
 }
