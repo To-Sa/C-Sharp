@@ -16,11 +16,14 @@ namespace PCC
 
             for (int i = 0; i < 10; i++)
             {
-                double y = r.NextDouble()*10;
+                double y = r.NextDouble() * 10;
                 listBox1.Items.Add(r.Next(1, 100));
                 listBox1.Items.Add(y);
                 //r.NextBytes(); - byte tömbök feltöltésére szolgál
             }
+
+            const double pi = 3.14; //konstans
+            MessageBox.Show(pi.ToString());
         }
     }
 }
