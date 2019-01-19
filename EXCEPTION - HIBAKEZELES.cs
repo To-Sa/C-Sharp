@@ -1,12 +1,4 @@
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections;
 using System.Windows.Forms;
 
 namespace PCC
@@ -27,7 +19,7 @@ namespace PCC
                 a = int.Parse("3.5");
                 MessageBox.Show("OK?");
             }
-            catch (FormatException)     // catch the all error
+            catch (FormatException) //az összes hibát elkapjuk így 
             {
                 MessageBox.Show("ERROR - I CAN NOT CONVERT IT!");
             }
@@ -81,7 +73,7 @@ namespace PCC
                 {
                     s = "";
                     if (s.Length == 0) throw new Exception("NO TEXT");
-                    err = false; //it will run if do not have Exc.
+                    err = false; //ide csak akkor jut el a vezérlés, ha nem lesz kivétel
                 }
                 catch (Exception NEVE)
                 {
@@ -90,8 +82,7 @@ namespace PCC
             }
             while (err);
 
-            //it is going to run, all time
-            MessageBox.Show("END");
+            MessageBox.Show("END"); //ez lefog futni 
         }
 
         private void button5_Click(object sender, EventArgs e)
