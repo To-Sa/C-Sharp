@@ -28,12 +28,16 @@ namespace PCC
             //  VÉGTELEN CIKLUS:    Pl.: WHILE(true) > Az adott ciklusból a program nem tud kilépni, így folyton ismételgeti önmagát.
             
             //  OOP - Object-Oriented Programing
+            //  OOP PROGRAM:        Az egymással kapcsolatot tartó, együttműködő objektumok összessége, ahol minden objektumnak megvan a jól meghatározott feladata.
+            //  OSZTÁLY:            Egy absztrakt fogalom (amolyan tervrajzféle). Egy-egy fogalom definiálására szolgál.
+            //  PÉLDÁNY/OBJEKTUM:   Az osztályba sorolt konkrét dolgok pedig az osztály példányai, vagy más szóval objektumok. A példány egy konkrét, az osztályra jellemző tulajdonságokkal és viselkedéssel rendelkező objektum.
+            //  ABSZTRAKCIÓ:        Ennek során megpróbáljuk kiemelni az azonos osztályba került dolgok közös jellemzőit.
+            //  METÓDUS:            A viselkedést pedig a metódusok írják le.
+            //  KONSTRUKTOR:        Ez egy speciális, visszatérési típus nélküli metódus, amelyben inicializáljuk az objektum bizonyos állapotait, és helyet foglalunk számára a memóriában.
             //  ELJÁRÁS:
             //  FÜGGVÉNY:
-            //  MEZŐ:
-            //  ADATTAG:
+            //  MEZŐ/ADATTAG:       Egy program objektumainak is vannak állapotaik (tulajdonságaik) és viselkedésük. Ezeket az állapotokat úgynevezett mezőkben (vagy adattagokban) tároljuk,
             //  TULAJDONSÁG (attributum):
-            //  METÓDUS:
             //  REFERENCIATÍPUS:
         }
     }
